@@ -1,6 +1,7 @@
 package practiceT;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 class Main{
@@ -40,7 +41,17 @@ class Main{
 			}
 		}System.out.println("The minimum element is :" +min);
 		
+		Arrays.sort(number);
 		
+		System.out.println("Ascending Order : ");
+		for (int i=0;i<number.length;i++) {
+			System.out.print(" "+ number[i]);
+		}
+		
+		System.out.println(" \nDescending Order : ");
+		for (int i=4;i>0;i--) {
+			System.out.print(" "+ number[i]);
+		}
 		
 		
 	}
